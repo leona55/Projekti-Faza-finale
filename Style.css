@@ -1,0 +1,543 @@
+    @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        scroll-behavior: smooth;
+    }
+    
+    p {
+        font-weight: 300;
+        color: #111;
+    }
+    
+    body {
+        min-height: 1000px;
+        height: 4000px;
+    }
+    
+    .banner {
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url(Bg-img/Bg.jpeg);
+        background-size: cover;
+    }
+    
+    .banner .content {
+        max-width: 900px;
+        text-align: center;
+    }
+    
+    .banner .content h2 {
+        font-size: 5em;
+        color: #fff;
+    }
+    
+    .banner .content p {
+        font-size: 1em;
+        color: #fff;
+    }
+    
+    .btn {
+        font-size: 1em;
+        color: #fff;
+        background: #fca4ab;
+        display: inline-block;
+        padding: 10px 30px;
+        margin-top: 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 2px;
+        transition: 0.5s;
+    }
+    
+    .btn {
+        letter-spacing: 3px;
+    }
+    
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 40px 100px;
+        z-index: 10000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: 0.5s;
+    }
+    
+    header.sticky {
+        background: #fff;
+        padding: 10px 100px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    }
+    
+    header .logo {
+        color: #fff;
+        font-weight: 700;
+        font-size: 2em;
+        text-decoration: none;
+    }
+    
+    header.sticky .logo {
+        color: #111;
+    }
+    
+    header .navigation {
+        position: relative;
+        display: flex;
+    }
+    
+    header .navigation li {
+        list-style: none;
+        margin-left: 30px;
+    }
+    
+    header .navigation li a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 350;
+    }
+    
+    header.sticky .navigation li a {
+        color: #111;
+    }
+    
+    header .navigation li a:hover {
+        color: #fca4ab;
+    }
+    
+    section {
+        padding: 100px;
+    }
+    
+    .row {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .row .col50 {
+        position: relative;
+        width: 48%;
+    }
+    
+    .titleText {
+        color: #111;
+        font-size: 2em;
+        font-size: 300;
+        text-align: center;
+        position: relative;
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+    }
+    
+    .titleText span {
+        color: #fca4ab;
+        font-weight: 700;
+        font-size: 1.5em;
+    }
+    
+    .row .col50 .imgBx {
+        position: relative;
+        width: 100%;
+        min-height: 500px;
+    }
+    
+    .row .col50 .imgBx img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .card {
+        font-size: 1em;
+        color: #fff;
+        background: #fca4ab;
+        display: inline-block;
+        padding: 10px 30px;
+        margin-top: 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 2px;
+        transition: 0.5s;
+    }
+    
+    .about {
+        margin-bottom: -5rem;
+    }
+    
+    section.menu {
+        background: #ffffff;
+    }
+    
+    section.menu .food-slider .food-card {
+        background: #f5ede6;
+        padding: 1.5rem 0;
+        border-radius: 4px;
+    }
+    
+    section.menu .food-slider {
+        box-shadow: 0 5px 35px rgba(0, 0, 0, 0.23);
+    }
+    
+    section.menu .food-slider .food-card .product-image img {
+        width: 70%;
+        height: 200px;
+        object-fit: contain;
+        border: 4px solid #ffffff;
+        box-shadow: 10px 10px 10px 10px rgba(133, 92, 92, 0.0861);
+        margin: 10px;
+    }
+    
+    section.menu .food-slider .food-card .product-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    hr {
+        border: 1px solid;
+        opacity: 0.1;
+        margin: 1rem 0;
+    }
+    
+    section.menu .food-slider .food-card h2 {
+        font-size: 1.3rem;
+        margin-bottom: 0.25rem;
+    }
+    
+    .text-center {
+        text-align: center;
+    }
+    
+    section.menu .food-slider .food-card .price {
+        color: rgb(250, 75, 56);
+        margin-bottom: 1rem;
+    }
+    
+    section.menu .food-slider .food-card .card {
+        font-size: 1em;
+        color: #fff;
+        background: #fca4ab;
+        display: inline-block;
+        padding: 10px 30px;
+        margin-top: 2px;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 2px;
+        transition: 0.5s;
+        align-items: center;
+        justify-content: center;
+        margin-left: 90px;
+        padding: 10px 10px;
+        box-shadow: 10px 10px 10px 10px rgba(133, 92, 92, 0.081);
+    }
+    
+    section.menu .food-slider .slick-prev {
+        background-color: #facace;
+        border-radius: 50px;
+    }
+    
+    section.menu .food-slider .slick-next {
+        background-color: #facace;
+        border-radius: 50px;
+    }
+    
+    .expert {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-top: 40px;
+        margin-top: -4rem;
+    }
+    
+    .expert .content .box {
+        width: 250px;
+        margin: 15px;
+    }
+    
+    .expert .content .box .imgBx {
+        position: relative;
+        width: 100%;
+        height: 300px;
+    }
+    
+    .expert .content .box .imgBx img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border: 8px solid #ffffff;
+        box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+        margin-top: 3rem;
+    }
+    
+    .expert .content .box .text {
+        padding: 15px 0 5px;
+    }
+    
+    .expert .content .box .text h3 {
+        font-weight: 400;
+        color: blueviolet;
+        margin: 3rem 0 50px 50px;
+    }
+    
+    .contact {
+        position: relative;
+        min-height: 100vh;
+        padding: 50px 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: url(Contact-img/contact6.jpg);
+        background-size: cover;
+    }
+    
+    .contact .content {
+        max-width: 800px;
+        text-align: center;
+    }
+    
+    .contact .content h2 {
+        font-size: 36px;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 1rem;
+        margin-top: -1rem;
+    }
+    
+    .contact .content p {
+        font-weight: 300;
+        color: #fff;
+    }
+    
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+    .container .contactInfo {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container .contactInfo .box {
+        position: relative;
+        padding: 20px 0;
+        display: flex;
+    }
+    
+    .container .contactInfo .box .icon {
+        min-width: 60px;
+        height: 60px;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 32px;
+        padding: 1rem;
+    }
+    
+    .container .contactInfo .box .text {
+        display: flex;
+        margin-left: 20px;
+        font-size: 16px;
+        color: #fff;
+        flex-direction: column;
+        font-weight: 300;
+    }
+    
+    .container .contactInfo .box .text h3 {
+        font-weight: 700;
+        color: #f8babf;
+    }
+    
+    .container .contactInfo .box .text p {
+        font-weight: 200;
+        color: #fff;
+    }
+    
+    .contactForm {
+        width: 40%;
+        padding: 40px;
+        background: #fff;
+        box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
+    }
+    
+    .contactForm h2 {
+        font-size: 30px;
+        color: #080353;
+        font-weight: 500;
+    }
+    
+    .contactForm .inputBox {
+        position: relative;
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    .contactForm .inputBox input,
+    .contactForm .inputBox textarea {
+        width: 100%;
+        padding: 5px 0;
+        font-size: 16px;
+        margin: 10px 0;
+        margin-top: 10px;
+        border: none;
+        box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.03);
+        border-bottom: 2px solid #080353;
+        resize: none;
+    }
+    
+    .contactForm .inputBox span {
+        position: absolute;
+        left: 0;
+        padding: 5px 0;
+        font-size: 16px;
+        margin: 10px 0;
+        margin-bottom: -50px;
+        pointer-events: none;
+        transition: 0.5s;
+        color: #080353;
+    }
+    
+    .contactForm .inputBox input:focus~span,
+    .contactForm .inputBox input:valid~span,
+    .contactForm .inputBox textarea:focus~span,
+    .contactForm .inputBox textarea:valid~span {
+        color: #080353;
+        font-size: 12px;
+        transform: translateY(-20px);
+    }
+    
+    .contactForm .inputBox input[type="submit"] {
+        width: 100px;
+        background: #f8babf;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        font-size: 18px;
+    }
+    /*--------Login-Reg-----------*/
+    
+    .form-box {
+        width: 380px;
+        height: 480px;
+        position: relative;
+        margin: 6% auto;
+        background: #fff;
+        padding: 5rem;
+        overflow: hidden;
+        box-shadow: 15px 15px 15px 15px rgba(110, 69, 69, 0.1);
+    }
+    
+    .button-box {
+        width: 220px;
+        margin: 35% auto;
+        position: relative;
+        box-shadow: 10px 10px 10px 10px rgba(133, 92, 92, 0.0661);
+        margin-top: -2rem;
+    }
+    
+    .toggle-btn {
+        padding: 10px 30px;
+        cursor: pointer;
+        background: transparent;
+        border: 0;
+        outline: none;
+        position: relative;
+    }
+    
+    #btn {
+        top: 0;
+        left: 0;
+        position: absolute;
+        width: 110px;
+        height: 100%;
+        background: linear-gradient(to right, #C68A90, #f8e1d3);
+        transition: .5s;
+    }
+    
+    .social-icons {
+        margin: 30px auto;
+        text-align: center;
+        margin-top: -3rem;
+    }
+    
+    .social-icons img {
+        width: 30px;
+        margin: 0 10px;
+        box-shadow: 0 0 20px 0 rgb(240, 239, 239);
+        cursor: pointer;
+    }
+    
+    .input-group {
+        top: 180px;
+        position: absolute;
+        width: 280px;
+        transition: .5s
+    }
+    
+    .input-field {
+        width: 100%;
+        padding: 10px 0;
+        margin: 5px 0;
+        border-left: 0;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 1px solid #999;
+        outline: none;
+        background: transparent;
+    }
+    
+    .submit-btn {
+        width: 85%;
+        padding: 10px 30px;
+        cursor: pointer;
+        display: block;
+        margin: auto;
+        background: linear-gradient(to right, #C68A90, #f8e1d3);
+        border: 0;
+        box-shadow: 10px 10px 10px 10px rgba(133, 92, 92, 0.0661);
+        outline: none;
+    }
+    
+    .chech-box {
+        margin: 30px 10px 30px 0;
+    }
+    
+    span {
+        color: #777;
+        font-size: 12px;
+        bottom: 68px;
+        position: absolute;
+    }
+    
+    #login {
+        left: 50px;
+    }
+    
+    #register {
+        left: 450%;
+    }
