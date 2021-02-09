@@ -1,7 +1,7 @@
 type = "text/javascript" >
     window.addEventListener('scroll', function() {
-        const header = document.querySelector('header');
-        header.classList.toggle("sticky", window.scrollY > 0);
+        const nav = document.querySelector('nav');
+        nav.classList.toggle("sticky", window.scrollY > 0);
     });
 
 
