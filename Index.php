@@ -169,7 +169,10 @@
         <div class="content">
             <div class="box">
                 <div class="imgBx">
-                    <img src="Expert-img/chef1.jpg">
+                    <img class="service-items" src="Expert-img/chef1.jpg" onclick="imgSlider">
+                </div>
+                <div class="read-more-content">
+                    <p>here is more about me</p>
                 </div>
                 <div class="text">
                     <h3>Lorem ipsum</h3>
@@ -208,6 +211,25 @@
         </div>
 
     </section>
+
+    <!-- read more -->
+
+    <div class="popup-box">
+        <div class="popup-content">
+            <div class="popup-header">
+                <h3>wlcome</h3>
+                <span class="popup-close-icon">&times;</span>
+            </div>
+            <div class="popup-body">
+                <p>saerfsfrasrfargrgkjufsdckscdj</p>
+                <p>saerfsfrasrfargrgkjufsdckscdj</p>
+                <p>saerfsfrasrfargrgkjufsdckscdj</p>
+            </div>
+            <div class="popup-footer">
+            <button class="btn popup-close-btn">Close</button>
+            </div>
+        </div>
+    </div>
 
     <section class="contact" id="contact">
         <div class="content">
@@ -251,7 +273,7 @@
                     </div>
                     <div class="inputBox">
                         <textarea required="required"></textarea>
-                        <span>Type your Message...</span>
+                        <span class="message">Type your Message...</span>
                     </div>
                     <div class="inputBox">
                         <input type="submit" name="" value="send">

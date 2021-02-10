@@ -297,6 +297,88 @@
         margin: 3rem 0 50px 50px;
     }
     
+    .popup-box {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 500;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .popup-box.open {
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .popup-box .popup-content {
+        background-color: seashell;
+        width: 900px;
+        height: 500px;
+        position: absolute;
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .popup-box .popup-header {
+        padding: 15px 40px 15px 15px;
+        border-bottom: 1px solid #dddddd;
+    }
+    
+    .popup-box .popup-header h3 {
+        margin: 0;
+        color: red;
+        font-size: 20px;
+    }
+    
+    .popup-box .popup-header .popup-close-icon {
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        text-align: center;
+        color: #555555;
+        font-size: 28px;
+        line-height: 30px;
+        right: 5px;
+        top: 5px;
+        cursor: pointer;
+    }
+    
+    .popup-box .popup-body {
+        padding: 15px;
+    }
+    
+    .popup-box .popup-body p {
+        font-size: 16px;
+        color: black;
+        margin: 0 0 15px;
+    }
+    
+    .popup-box .popup-footer {
+        padding: 15px;
+        /* border-top: 1px solid #dddddd; */
+        text-align: right;
+    }
+    
+    .popup-box .popup-footer .btn {
+        padding: 8px 15px;
+        border: 1px solid #555555;
+        color: #555555;
+        font-size: 16px;
+        background-color: transparent;
+        cursor: pointer;
+        border-radius: 2px;
+    }
+    
+    .popup-box .popup-footer .btn:focus {
+        outline: none;
+    }
+    
     .contact {
         position: relative;
         min-height: 100vh;
@@ -407,6 +489,7 @@
         box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.03);
         border-bottom: 2px solid #080353;
         resize: none;
+        outline: none;
     }
     
     .contactForm .inputBox span {
@@ -428,6 +511,13 @@
         color: #080353;
         font-size: 12px;
         transform: translateY(-20px);
+    }
+    
+    .contactForm .inputBox input:focus~span.message,
+    .contactForm .inputBox input:valid~span.message,
+    .contactForm .inputBox textarea:focus~span.message,
+    .contactForm .inputBox textarea:valid~span.message {
+        transform: translateY(-40px);
     }
     
     .contactForm .inputBox input[type="submit"] {

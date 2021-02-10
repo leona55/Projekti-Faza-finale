@@ -46,3 +46,10 @@ function login() {
     y.style.left = "450px";
     z.style.left = "0";
 }
+
+
+const serviceItems = document.querySelector(".service-items");
+
+serviceItems.addEventListener("click", function(event) {
+
+});
