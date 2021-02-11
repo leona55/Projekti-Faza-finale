@@ -51,6 +51,5 @@ function login() {
 function toggle() {
     var blur = document.getElementById('experts');
     experts.classList.toggle('active');
-    var bpopup = document.getElementById('popup');
     popup.classList.toggle('active');
 }
