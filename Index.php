@@ -7,7 +7,7 @@
     
 </head>
 
-<body>
+<body >
   <?php include('./Partials/nav.php') ?>
 
     <section class="banner" id="banner">
@@ -167,16 +167,15 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed lorem ac lectus mattis mollis. Integer egestas sapien at dui sollicitudin molestie.</p>
         </div>
         <div class="content">
-            <div class="box">
+            <div class="box" >
                 <div class="imgBx">
-                    <img class="service-items" src="Expert-img/chef1.jpg" onclick="imgSlider">
-                </div>
-                <div class="read-more-content">
-                    <p>here is more about me</p>
+                    <img src="Expert-img/chef1.jpg">
+                    
                 </div>
                 <div class="text">
-                    <h3>Lorem ipsum</h3>
+                <h3>Dawn Vileno</h3>
                 </div>
+                
             </div>
         </div>
         <div class="content">
@@ -185,7 +184,7 @@
                     <img src="Expert-img/chef2.jpg">
                 </div>
                 <div class="text">
-                    <h3>Lorem ipsum</h3>
+                <h3>Joe Goetze</h3>
                 </div>
             </div>
         </div>
@@ -195,7 +194,7 @@
                     <img src="Expert-img/chef3.jpg">
                 </div>
                 <div class="text">
-                    <h3>Lorem ipsum</h3>
+                <h3>Mike Goral</h3>
                 </div>
             </div>
         </div>
@@ -205,30 +204,31 @@
                     <img src="Expert-img/chef4.jpg">
                 </div>
                 <div class="text">
-                    <h3>Lorem ipsum</h3>
+                <h3>Keysi Torres</h3>
                 </div>
             </div>
         </div>
-
+        <div class="popup-text">
+    <a href="#expert" onclick="toggle()">Read More</a>
+    </div>
     </section>
 
-    <!-- read more -->
-
-    <div class="popup-box">
-        <div class="popup-content">
-            <div class="popup-header">
-                <h3>wlcome</h3>
-                <span class="popup-close-icon">&times;</span>
-            </div>
-            <div class="popup-body">
-                <p>saerfsfrasrfargrgkjufsdckscdj</p>
-                <p>saerfsfrasrfargrgkjufsdckscdj</p>
-                <p>saerfsfrasrfargrgkjufsdckscdj</p>
-            </div>
-            <div class="popup-footer">
-            <button class="btn popup-close-btn">Close</button>
-            </div>
-        </div>
+    
+    <div id="popup">
+            <h2>Dawn Vileno</h2>
+            <p>Our food safety and sanitation expert, Keysi manages our quality assurance guidelines,
+            health and sanitation trainings, certifications, and best practices across all of our stores.</p>
+            <h2>Joe Goetze</h2>
+            <p>Joe Goetze’s official title is managing partner,culinary & bakery, 
+            but within the Farmers Restaurant Group family, he’s simply known as Chef Joe.</p>
+            <h2>Mike Goral</h2>
+            <p>Michael Goral(also affectionately known to our team as “Mike G”)
+            is one of the industry’s most respected restaurant concept developers for his knowledge of every aspect 
+            of the business,from brand creation to profitability.</p>
+            <h2>Keysi Torres</h2>
+            <p>Our food safety and sanitation expert, Keysi manages our quality assurance guidelines,
+            health and sanitation trainings, certifications, and best practices across all of our stores.</p>
+        <a href="#expert" onclick="toggle()">Close</a>
     </div>
 
     <section class="contact" id="contact">

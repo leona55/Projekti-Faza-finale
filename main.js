@@ -48,8 +48,21 @@ function login() {
 }
 
 
-const serviceItems = document.querySelector(".service-items");
+// const serviceItems = document.getElementsByClassName(".imgBx");
+// const popup = document.getElementsByClassName(".popup-box");
+// serviceItems.addEventListener("click", function(event) {
+//     if (event.target.tagName.toLowerCase() == "button") {
+//         popupBox();
+//     }
+// });
 
-serviceItems.addEventListener("click", function(event) {
+// function popupBox() {
+//     popup.classList.toggle("open");
+// }
 
-});
+function toggle() {
+    var blur = document.getElementById('expert');
+    blur.classList.toggle('active');
+    var popup = document.getElementById('popup');
+    popup.classList.toggle('active');
+}

@@ -288,95 +288,62 @@
     }
     
     .expert .content .box .text {
-        padding: 15px 0 5px;
+        position: relative;
+        padding: 75px 60px 5px;
     }
     
     .expert .content .box .text h3 {
-        font-weight: 400;
-        color: blueviolet;
-        margin: 3rem 0 50px 50px;
+        color: #999;
     }
     
-    .popup-box {
+    .expert#expert.active {
+        filter: blur(20px);
+        pointer-events: none;
+        user-select: none;
+    }
+    
+    .popup-text a {
+        position: relative;
+        padding: 5px 20px;
+        display: inline-block;
+        margin-top: 60px;
+        margin-left: 30px;
+        text-decoration: none;
+        color: #fff;
+        background: #fca4ab;
+    }
+    
+    #popup {
         position: fixed;
-        height: 100%;
-        width: 100%;
-        left: 0;
-        top: 0;
-        background-color: rgba(0, 0, 0, 0.5);
-        z-index: 500;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 900px;
+        height: 450px;
+        padding: 50px;
+        box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+        background: #fff;
         visibility: hidden;
         opacity: 0;
-        transition: all 0.5s ease-in-out;
+        transition: 0.5s;
     }
     
-    .popup-box.open {
+    #popup a {
+        position: relative;
+        padding: 5px 50px;
+        display: inline-block;
+        margin-top: 60px;
+        margin-left: 60px;
+        text-decoration: none;
+        color: #fff;
+        background: #fca4ab;
+    }
+    
+    #popup.active {
+        top: 50%;
         visibility: visible;
         opacity: 1;
-    }
-    
-    .popup-box .popup-content {
-        background-color: seashell;
-        width: 900px;
-        height: 500px;
-        position: absolute;
-        left: 50%;
-        top: 55%;
-        transform: translate(-50%, -50%);
-    }
-    
-    .popup-box .popup-header {
-        padding: 15px 40px 15px 15px;
-        border-bottom: 1px solid #dddddd;
-    }
-    
-    .popup-box .popup-header h3 {
-        margin: 0;
-        color: red;
-        font-size: 20px;
-    }
-    
-    .popup-box .popup-header .popup-close-icon {
-        position: absolute;
-        height: 30px;
-        width: 30px;
-        text-align: center;
-        color: #555555;
-        font-size: 28px;
-        line-height: 30px;
-        right: 5px;
-        top: 5px;
-        cursor: pointer;
-    }
-    
-    .popup-box .popup-body {
-        padding: 15px;
-    }
-    
-    .popup-box .popup-body p {
-        font-size: 16px;
-        color: black;
-        margin: 0 0 15px;
-    }
-    
-    .popup-box .popup-footer {
-        padding: 15px;
-        /* border-top: 1px solid #dddddd; */
-        text-align: right;
-    }
-    
-    .popup-box .popup-footer .btn {
-        padding: 8px 15px;
-        border: 1px solid #555555;
-        color: #555555;
-        font-size: 16px;
-        background-color: transparent;
-        cursor: pointer;
-        border-radius: 2px;
-    }
-    
-    .popup-box .popup-footer .btn:focus {
-        outline: none;
+        transition: 0.5s;
     }
     
     .contact {
