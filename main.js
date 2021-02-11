@@ -47,21 +47,8 @@ function login() {
     z.style.left = "0";
 }
 
-
-// const serviceItems = document.getElementsByClassName(".imgBx");
-// const popup = document.getElementsByClassName(".popup-box");
-// serviceItems.addEventListener("click", function(event) {
-//     if (event.target.tagName.toLowerCase() == "button") {
-//         popupBox();
-//     }
-// });
-
-// function popupBox() {
-//     popup.classList.toggle("open");
-// }
-
 function toggle() {
-    var blur = document.getElementById('expert');
+    var blur = document.getElementById('experts');
     blur.classList.toggle('active');
     var popup = document.getElementById('popup');
     popup.classList.toggle('active');

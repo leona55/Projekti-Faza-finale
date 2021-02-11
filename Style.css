@@ -189,16 +189,17 @@
     }
     
     section.menu .food-slider {
-        box-shadow: 0 5px 35px rgba(0, 0, 0, 0.23);
+        box-shadow: 0 5px 35px rgba(0, 0, 0, 0.15);
     }
     
     section.menu .food-slider .food-card .product-image img {
         width: 70%;
         height: 200px;
         object-fit: contain;
-        border: 4px solid #ffffff;
-        box-shadow: 10px 10px 10px 10px rgba(133, 92, 92, 0.0861);
+        border: 2px solid #f9eaea00;
+        box-shadow: 10px 10px 10px 10px rgb(133 92 92 / 9%);
         margin: 10px;
+        background: #f1e2e2;
     }
     
     section.menu .food-slider .food-card .product-image {
@@ -255,7 +256,7 @@
         border-radius: 50px;
     }
     
-    .expert {
+    .experts {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -264,18 +265,18 @@
         margin-top: -4rem;
     }
     
-    .expert .content .box {
+    .experts .content .box {
         width: 250px;
         margin: 5px;
     }
     
-    .expert .content .box .imgBx {
+    .experts .content .box .imgBx {
         position: relative;
         width: 100%;
         height: 300px;
     }
     
-    .expert .content .box .imgBx img {
+    .experts .content .box .imgBx img {
         position: absolute;
         top: 0;
         left: 0;
@@ -287,16 +288,17 @@
         margin-top: 3rem;
     }
     
-    .expert .content .box .text {
+    .experts .content .box .text {
         position: relative;
         padding: 75px 60px 5px;
     }
     
-    .expert .content .box .text h3 {
+    .experts .content .box .text h3 {
         color: #999;
+        font-weight: 400;
     }
     
-    .expert#expert.active {
+    .experts#experts.active {
         filter: blur(20px);
         pointer-events: none;
         user-select: none;
@@ -368,7 +370,7 @@
         font-weight: 500;
         color: #fff;
         margin-bottom: 1rem;
-        margin-top: -1rem;
+        margin-top: 1rem;
     }
     
     .contact .content p {
@@ -502,7 +504,7 @@
         width: 380px;
         height: 480px;
         position: relative;
-        margin: 6% auto;
+        margin: 1% auto;
         background: #fff;
         padding: 5rem;
         overflow: hidden;

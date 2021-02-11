@@ -14,7 +14,7 @@
         <div class="content">
             <h2>Always choose good</h2>
             <p>Lorem Ipsum</p>
-            <a href="#" class="btn">Our Menu</a>
+            <a href="#menu" class="btn">Our Menu</a>
         </div>
     </section>
 
@@ -157,14 +157,17 @@
                             <a href="#" class="card text-center">Add to cart</a>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>
     </section>
-    <section class="expert" id="expert">
+    <section class="experts" id="experts">
         <div class="title">
-            <h2 class="titleText">Our Kitchen Expert</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed lorem ac lectus mattis mollis. Integer egestas sapien at dui sollicitudin molestie.</p>
+            <h2 class="titleText">Our Kitchen Experts</h2>
+            <p>We’re dedicated to our people, our guests, and the American family farmer.
+            Meet the leaders who continue to raise the bar, employee relations, develop our teams, 
+            with quarterly meetings to help guide us on human resources, career development, and grow the future.</p>
         </div>
         <div class="content">
             <div class="box" >
@@ -283,7 +286,7 @@
         </div>
     </section>
 
-    <section class="logIn" id="logIn">
+    <section class="login" id="logIn">
         <div class="form-box">
             <div class="button-box">
                 <div id="btn"></div>
@@ -309,11 +312,12 @@
                 <button type="submit" class="submit-btn">Register</button>
             </form>
         </div>
-
+        
     </section>
-    
     <?php include('./Partials/footer.php') ?>
+    
 
 </body>
+
 
 </html>
