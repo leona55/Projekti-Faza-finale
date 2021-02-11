@@ -14,7 +14,7 @@
         <div class="content">
             <h2>Always choose good</h2>
             <p>Lorem Ipsum</p>
-            <a href="#" class="btn">Our Menu</a>
+            <a href="#menu" class="btn">Our Menu</a>
         </div>
     </section>
 
