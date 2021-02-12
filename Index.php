@@ -12,6 +12,7 @@
         <div class="content">
             <h2>Art of Cooking</h2>
             <p>Lorem Ipsum</p>
+            <p>Discover and experience fine selection of international tastes </p>
             <a href="#menu" class="btn">Our Menu</a>
         </div>
     </section>
