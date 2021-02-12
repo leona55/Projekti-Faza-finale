@@ -136,7 +136,7 @@
                         </div>
                         <hr>
                         <div>
-                            <h2 class="text-center">Lorem ipsumm</h2>
+                            <h2 class="text-center">Lorem ipsum</h2>
                             <div class="price text-center">
                                 $1.20
                             </div>
