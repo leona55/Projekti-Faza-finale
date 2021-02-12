@@ -10,7 +10,7 @@
     <?php include('./Partials/nav.php') ?> 
     <section class="banner" id="banner">
         <div class="content">
-            <h2>Art of food</h2>
+            <h2>Art of Cooking</h2>
             <p>Lorem Ipsum</p>
             <a href="#menu" class="btn">Our Menu</a>
         </div>
