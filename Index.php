@@ -63,7 +63,6 @@
                         </div>
                         <hr>
                         <div>
-                            <h2 class="text-center">Lorem Ipsum</h2>
                             <div class="price text-center">
                                 $1.20
                             </div>
@@ -78,7 +77,6 @@
                         </div>
                         <hr>
                         <div>
-                            <h2 class="text-center">Lorem Ipsum</h2>
                             <div class="price text-center">
                                 $1.20
                             </div>
@@ -92,7 +90,6 @@
                         </div>
                         <hr>
                         <div>
-                            <h2 class="text-center">Lorem Ipsum</h2>
                             <div class="price text-center">
                                 $1.20
                             </div>
@@ -106,7 +103,6 @@
                         </div>
                         <hr>
                         <div>
-                            <h2 class="text-center">Lorem Ipsum</h2>
                             <div class="price text-center">
                                 $1.20
                             </div>
@@ -120,7 +116,6 @@
                         </div>
                         <hr>
                         <div>
-                            <h2 class="text-center">Lorem Ipsum</h2>
                             <div class="price text-center">
                                 $1.20
                             </div>
@@ -134,7 +129,6 @@
                         </div>
                         <hr>
                         <div>
-                            <h2 class="text-center">Lorem ipsumm</h2>
                             <div class="price text-center">
                                 $1.20
                             </div>
@@ -148,7 +142,6 @@
                         </div>
                         <hr>
                         <div>
-                            <h2 class="text-center">Lorem Ipsum</h2>
                             <div class="price text-center">
                                 $1.20
                             </div>
@@ -237,21 +230,21 @@
                     <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
                     <div class="text">
                         <h3>Address</h3>
-                        <p>0000 Lorem Ipsum,<br>Lorem , Ipsum ,<br>00000</p>
+                        <p>Fatsa/Ordu,<br>Onur Sk.,<br>52400</p>
                     </div>
                 </div>
                 <div class="box">
                     <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
                     <div class="text">
                         <h3>Phone</h3>
-                        <p>000-000-0000</p>
+                        <p>+90 452 423 93 73</p>
                     </div>
                 </div>
                 <div class="box">
                     <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
                     <div class="text">
                         <h3>Email</h3>
-                        <p>loremipsum@gmail.com</p>
+                        <p>Dinning@gmail.com</p>
                     </div>
                 </div>
             </div>
