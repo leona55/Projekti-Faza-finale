@@ -11,7 +11,6 @@
     <section class="banner" id="banner">
         <div class="content">
             <h2>Art of Cooking</h2>
-            <p>Lorem Ipsum</p>
             <p>Discover and experience fine selection of international tastes </p>
             <a href="#menu" class="btn">Our Menu</a>
         </div>
@@ -49,7 +48,6 @@
                         </div>
                         <hr>
                         <div>
-                            <h2 class="text-center">Lorem Ipsum</h2>
                             <h2 class="text-center">Japonessa</h2>
                             <div class="price text-center">
                                 $1.20
@@ -65,6 +63,7 @@
                         </div>
                         <hr>
                         <div>
+                            <h2 class="text-center">Kona Kitchen</h2>
                             <div class="price text-center">
                                 $1.20
                             </div>
@@ -79,6 +78,7 @@
                         </div>
                         <hr>
                         <div>
+                            <h2 class="text-center">Street Pizza</h2>
                             <div class="price text-center">
                                 $1.20
                             </div>
@@ -92,6 +92,7 @@
                         </div>
                         <hr>
                         <div>
+                            <h2 class="text-center">Baked Chicken</h2>
                             <div class="price text-center">
                                 $1.20
                             </div>
@@ -105,6 +106,7 @@
                         </div>
                         <hr>
                         <div>
+                            <h2 class="text-center">Bombay Sandwich</h2>
                             <div class="price text-center">
                                 $1.20
                             </div>
@@ -118,6 +120,7 @@
                         </div>
                         <hr>
                         <div>
+                            <h2 class="text-center">Italian Chicken</h2>
                             <div class="price text-center">
                                 $1.20
                             </div>
@@ -131,6 +134,7 @@
                         </div>
                         <hr>
                         <div>
+                            <h2 class="text-center">Bruscheta</h2>
                             <div class="price text-center">
                                 $1.20
                             </div>
@@ -144,6 +148,7 @@
                         </div>
                         <hr>
                         <div>
+                            <h2 class="text-center">Chilly Chicken</h2>
                             <div class="price text-center">
                                 $1.20
                             </div>
