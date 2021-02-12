@@ -3,16 +3,14 @@
 
 <head>
     <title>Restaurant</title>
-    <?php include('./Partials/header.php') ?>
-    
+    <?php include('./Partials/header.php') ?> 
 </head>
 
-<body >
-  <?php include('./Partials/nav.php') ?>
-
+<body>
+    <?php include('./Partials/nav.php') ?> 
     <section class="banner" id="banner">
         <div class="content">
-            <h2>Always choose good</h2>
+            <h2>Art of food</h2>
             <p>Lorem Ipsum</p>
             <a href="#menu" class="btn">Our Menu</a>
         </div>
@@ -157,7 +155,7 @@
                             <a href="#" class="card text-center">Add to cart</a>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -165,20 +163,19 @@
     <section class="experts" id="experts">
         <div class="title">
             <h2 class="titleText">Our Kitchen Experts</h2>
-            <p>We’re dedicated to our people, our guests, and the American family farmer.
-            Meet the leaders who continue to raise the bar, employee relations, develop our teams, 
-            with quarterly meetings to help guide us on human resources, career development, and grow the future.</p>
+            <p>We’re dedicated to our people, our guests, and the American family farmer. Meet the leaders who continue to raise the bar, employee relations, develop our teams, with quarterly meetings to help guide us on human resources, career development,
+                and grow the future.</p>
         </div>
         <div class="content">
-            <div class="box" >
+            <div class="box">
                 <div class="imgBx">
                     <img src="Expert-img/chef1.jpg">
-                    
+
                 </div>
                 <div class="text">
-                <h3>Dawn Vileno</h3>
+                    <h3>Dawn Vileno</h3>
                 </div>
-                
+
             </div>
         </div>
         <div class="content">
@@ -187,7 +184,7 @@
                     <img src="Expert-img/chef2.jpg">
                 </div>
                 <div class="text">
-                <h3>Joe Goetze</h3>
+                    <h3>Joe Goetze</h3>
                 </div>
             </div>
         </div>
@@ -197,7 +194,7 @@
                     <img src="Expert-img/chef3.jpg">
                 </div>
                 <div class="text">
-                <h3>Mike Goral</h3>
+                    <h3>Mike Goral</h3>
                 </div>
             </div>
         </div>
@@ -207,30 +204,25 @@
                     <img src="Expert-img/chef4.jpg">
                 </div>
                 <div class="text">
-                <h3>Keysi Torres</h3>
+                    <h3>Keysi Torres</h3>
                 </div>
             </div>
         </div>
         <div class="popup-text">
-    <a href="#expert" onclick="toggle()">Read More</a>
-    </div>
+            <a href="#expert" onclick="toggle()">Read More</a>
+        </div>
     </section>
 
-    
+
     <div id="popup">
-            <h2>Dawn Vileno</h2>
-            <p>Our food safety and sanitation expert, Keysi manages our quality assurance guidelines,
-            health and sanitation trainings, certifications, and best practices across all of our stores.</p>
-            <h2>Joe Goetze</h2>
-            <p>Joe Goetze’s official title is managing partner,culinary & bakery, 
-            but within the Farmers Restaurant Group family, he’s simply known as Chef Joe.</p>
-            <h2>Mike Goral</h2>
-            <p>Michael Goral(also affectionately known to our team as “Mike G”)
-            is one of the industry’s most respected restaurant concept developers for his knowledge of every aspect 
-            of the business,from brand creation to profitability.</p>
-            <h2>Keysi Torres</h2>
-            <p>Our food safety and sanitation expert, Keysi manages our quality assurance guidelines,
-            health and sanitation trainings, certifications, and best practices across all of our stores.</p>
+        <h2>Dawn Vileno</h2>
+        <p>Our food safety and sanitation expert, Keysi manages our quality assurance guidelines, health and sanitation trainings, certifications, and best practices across all of our stores.</p>
+        <h2>Joe Goetze</h2>
+        <p>Joe Goetze’s official title is managing partner,culinary & bakery, but within the Farmers Restaurant Group family, he’s simply known as Chef Joe.</p>
+        <h2>Mike Goral</h2>
+        <p>Michael Goral(also affectionately known to our team as “Mike G”) is one of the industry’s most respected restaurant concept developers for his knowledge of every aspect of the business,from brand creation to profitability.</p>
+        <h2>Keysi Torres</h2>
+        <p>Our food safety and sanitation expert, Keysi manages our quality assurance guidelines, health and sanitation trainings, certifications, and best practices across all of our stores.</p>
         <a href="#expert" onclick="toggle()">Close</a>
     </div>
 
@@ -312,10 +304,10 @@
                 <button type="submit" class="submit-btn">Register</button>
             </form>
         </div>
-        
+
     </section>
     <?php include('./Partials/footer.php') ?>
-    
+
 
 </body>
 
