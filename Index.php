@@ -154,7 +154,7 @@
                             <div class="price text-center">
                                 $1.20
                             </div>
-                            <a href="#" class="card text-center">Add tocart</a>
+                            <a href="#" class="card text-center">Add to cart</a>
                         </div>
                     </div>
                     
