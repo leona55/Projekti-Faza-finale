@@ -138,7 +138,7 @@
                         <div>
                             <h2 class="text-center">Lorem Ipsum</h2>
                             <div class="price text-center">
-                                $1.20$
+                                $1.20
                             </div>
                             <a href="#" class="card text-center">Add to cart</a>
                         </div>
