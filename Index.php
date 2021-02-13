@@ -136,7 +136,7 @@
                         <div>
                             <h2 class="text-center">Bruscheta</h2>
                             <div class="price text-center">
-                                $1.20
+                                _____________
                             </div>
                             <a href="#" class="card text-center">Add to cart</a>
                         </div>
@@ -237,7 +237,7 @@
                     <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
                     <div class="text">
                         <h3>Address</h3>
-                        <p>Fatsa/Ordu,<br>Onur Sk.,<br>52400</p>
+                        <p>Fatsa/Ordu,<br>Turkey,<br>52400</p>
                     </div>
                 </div>
                 <div class="box">
