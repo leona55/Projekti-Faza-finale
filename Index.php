@@ -255,22 +255,22 @@
                     </div>
                 </div>
             </div>
-            <!-- <?php include('./Contact-img/contactdata.php') ?> -->
+            <!-- <?php include('ContactData.php') ?> -->
             <div class="contactForm">
-            <form action="ContactData.php" method="post">
+                <form action="<?= $_SERVER['PHP_SELF']; ?>" method="post">
                     <h2>Send Message</h2>
                     <div class="inputBox">
                         <input type="text" name="user" autocomplete="off" >
                         <span>Full Name</span>
-                        <!-- <span class="error"><?php $name_error ?></span> -->
+                        <!-- <span class="error"><?= $name_error ?></span> -->
                     </div>
                     <div class="inputBox">
                         <input type="text" name="email" autocomplete="off">
                         <span>Email</span>
-                        <!-- <span class="error"><?php $email_error ?></span> -->
+                        <!-- <span class="error"><?= $email_error ?></span> -->
                     </div>
                     <div class="inputBox">
-                        <textarea type="text" name="comment"></textarea>
+                        <textarea type="text" name="message"></textarea>
                         <span class="message">Type your Message...</span>
                     </div>
                     <div class="inputBox">
@@ -278,6 +278,7 @@
                     </div>
                 </form>
             </div>
+        </div>
         </div>
     </section>
 
@@ -294,13 +295,13 @@
                 <img src="Login-reg-img/gp.png">
             </div>
             <form id="login" class="input-group">
-                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="text" class="input-field" placeholder="Username" required>
                 <input type="text" class="input-field" placeholder="Enter Password" required>
                 <input type="checkbox" class="chech-box"><span>Remember Password</span>
                 <button type="submit" class="submit-btn">Log In</button>
             </form>
             <form id="register" class="input-group">
-                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="text" class="input-field" placeholder="Username" required>
                 <input type="email" class="input-field" placeholder="Email Id" required>
                 <input type="text" class="input-field" placeholder="Enter Password" required>
                 <input type="checkbox" class="chech-box"><span>Agree to the terms & conditions</span>
