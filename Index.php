@@ -255,22 +255,22 @@
                     </div>
                 </div>
             </div>
-            <?php include('./Contact-img/contactdata.php') ?>
+            <!-- <?php include('./Contact-img/contactdata.php') ?> -->
             <div class="contactForm">
-                <form action="<?= $_SERVER['PHP_SELF']; ?>" method="post">
+            <form action="ContactData.php" method="post">
                     <h2>Send Message</h2>
                     <div class="inputBox">
                         <input type="text" name="user" autocomplete="off" >
                         <span>Full Name</span>
-                        <span class="error"><?= $name_error ?></span>
+                        <!-- <span class="error"><?php $name_error ?></span> -->
                     </div>
                     <div class="inputBox">
                         <input type="text" name="email" autocomplete="off">
                         <span>Email</span>
-                        <span class="error"><?= $email_error ?></span>
+                        <!-- <span class="error"><?php $email_error ?></span> -->
                     </div>
                     <div class="inputBox">
-                        <textarea type="text" name="message"></textarea>
+                        <textarea type="text" name="comment"></textarea>
                         <span class="message">Type your Message...</span>
                     </div>
                     <div class="inputBox">
