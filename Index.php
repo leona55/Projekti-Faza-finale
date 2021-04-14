@@ -6,6 +6,7 @@
     <?php include('./Partials/header.php') ?> 
 </head>
 
+
 <body>
     <?php include('./Partials/nav.php') ?> 
     <section class="banner" id="banner">
