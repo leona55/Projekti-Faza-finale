@@ -39,8 +39,9 @@
     }
     
     .banner .content p {
-        font-size: 1em;
+        font-size: 2em;
         color: #fff;
+        font-family: 'Dancing Script', cursive;
     }
     
     .btn {
@@ -116,6 +117,7 @@
     
     section {
         padding: 100px;
+        position: relative;
     }
     
     .row {
@@ -510,6 +512,7 @@
         position: relative;
         margin: 1% auto;
         background: #fff;
+        left: -23%;
         padding: 5rem;
         overflow: hidden;
         box-shadow: 15px 15px 15px 15px rgba(110, 69, 69, 0.1);
@@ -594,6 +597,14 @@
         color: #777;
         font-size: 12px;
         bottom: 68px;
+        position: absolute;
+    }
+    
+    .log {
+        width: 520px;
+        height: 320px;
+        left: 54%;
+        top: 37%;
         position: absolute;
     }
     

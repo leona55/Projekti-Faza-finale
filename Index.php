@@ -283,6 +283,7 @@
     </section>
 
     <section class="login" id="logIn">
+    
         <div class="form-box">
             <div class="button-box">
                 <div id="btn"></div>
@@ -295,20 +296,22 @@
                 <img src="Login-reg-img/gp.png">
             </div>
             <form id="login" class="input-group">
-                <input type="text" class="input-field" placeholder="Username" required>
-                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <input type="text" class="input-field" id="username" placeholder="Username" >
+                <input type="text" class="input-field" id="pass" placeholder="Enter Password" >
                 <input type="checkbox" class="chech-box"><span>Remember Password</span>
-                <button type="submit" class="submit-btn">Log In</button>
+                <button type="submit" id="submitbtn" class="submit-btn" value="Login" onclick="validate(0)">Log In</button>
             </form>
             <form id="register" class="input-group">
-                <input type="text" class="input-field" placeholder="Username" required>
-                <input type="email" class="input-field" placeholder="Email Id" required>
-                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <input type="text" class="input-field" id="username" placeholder="Username" >
+                <input type="email" class="input-field" id="email" placeholder="Email Id">
+                <input type="text" class="input-field" id="pass" placeholder="Enter Password" >
                 <input type="checkbox" class="chech-box"><span>Agree to the terms & conditions</span>
-                <button type="submit" class="submit-btn">Register</button>
+                <button type="submit" id="btnsubmit" class="submit-btn" onclick="validate(1)">Register</button>
             </form>
+            
         </div>
-
+        <img class="log" src="Login-reg-img/f9.png">
+        
     </section>
     <?php include('./Partials/footer.php') ?>
 
