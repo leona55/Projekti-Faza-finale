@@ -53,3 +53,22 @@ function toggle() {
     var popup = document.getElementById('popup');
     popup.classList.toggle('active');
 }
+
+function validate(number) {
+    var inputList = document.getElementsByClassName('input-field');
+    if (number == 0) {
+        //login
+        if (inputList[0].value == "" || inputList[1].value == "") {
+            alert("Please fill the data");
+        } else {
+            alert('Login successful');
+        }
+    } else if (number == 1) {
+        //register
+        if (inputList[0].value == "" || inputList[1].value == "" || inputList[2].value == "") {
+            alert("Please fill the data");
+        } else {
+            alert('Register successful');
+        }
+    }
+}
